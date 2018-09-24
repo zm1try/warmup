@@ -1,4 +1,4 @@
 module.exports = function warmup(temperature) {
-  this.t = temperature;
+  let t = temperature;
   return t*9/5+32;
 };
